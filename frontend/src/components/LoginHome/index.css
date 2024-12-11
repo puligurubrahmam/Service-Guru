@@ -431,6 +431,7 @@ hr{
         width: 50%;
     }
     .search-list-sm li{
+        border-bottom: 1px solid lightslategray;
         font-size: 13px;
         width: 100%;
         text-align:center;

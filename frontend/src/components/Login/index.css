@@ -19,7 +19,7 @@
 .login-container form{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 33%;
 }
 .login-container form *{
     margin-top: 10px;

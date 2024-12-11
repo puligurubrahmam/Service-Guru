@@ -280,12 +280,8 @@ hr{
 }
 .search-list li{
     border-bottom: 1px solid lightslategray;
-}
-.search-list li button{
-        font-size: 13px;
-        border: none;
-        width: 100%;
-        background-color: transparent;
+    font-size: 13px;
+    text-align:center;
 }
 .search-list-sm{
     display: none;

@@ -23,7 +23,7 @@ class Register extends Component
                         password
                     })
                 }
-                const response = await fetch("http://localhost:5000/register",option);
+                const response = await fetch("https://nviri-assignment-backend.onrender.com/register",option);
                 if(response.ok)
                 {
                     this.setState({loading:false})

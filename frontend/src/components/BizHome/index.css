@@ -1,0 +1,17 @@
+.logo-div-dashboard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+.bizhome{
+    padding: 20px;
+    height: 100vh;
+}
+.book-service-container{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

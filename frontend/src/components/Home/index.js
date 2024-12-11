@@ -16,7 +16,7 @@ class Home extends Component
             const fetchFunction= async() =>
             {
                 const {location} = this.state;
-                const response = await fetch(`https://nviri-assignment-backend.onrender.com/${location}`);
+                const response = await fetch(`https://nviri-assignment-backend.onrender.com/location/${location}`);
                 if(response.ok)
                 {
                     const data = await response.json();

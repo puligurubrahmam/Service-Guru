@@ -57,7 +57,7 @@ class BizLogin extends Component
                         <label>Email</label>
                         <input placeholder='Enter Email' onChange={(event)=>{this.setState({email:event.target.value})}}/>
                         <label>Password</label>
-                        <input placeholder='Enter Password' onChange={(event)=>{this.setState({password:event.target.value})}}/>
+                        <input type='password' placeholder='Enter Password' onChange={(event)=>{this.setState({password:event.target.value})}}/>
                         <button className='btn orange' onClick={this.loginFunction}>Login</button>
                         {
                            this.state.error&&<span className='error'>*{this.state.error}</span>

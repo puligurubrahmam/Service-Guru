@@ -22,7 +22,7 @@
 .login-container1 form{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 35%;
 }
 .login-container1 form *{
     margin-top: 5px;

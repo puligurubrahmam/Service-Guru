@@ -282,6 +282,7 @@ hr{
     border-bottom: 1px solid lightslategray;
     font-size: 13px;
     text-align:center;
+    width:100%;
 }
 .search-list-sm{
     display: none;
@@ -429,12 +430,9 @@ hr{
         background-color: lightgrey;
         width: 50%;
     }
-    .search-list-sm li button{
+    .search-list-sm li{
         font-size: 13px;
-        padding: 5px;
-        border: none;
         width: 100%;
-        background-color: transparent;
-        border-bottom: 1px solid lightslategray;
+        text-align:center;
     }
 }

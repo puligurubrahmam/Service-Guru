@@ -70,9 +70,7 @@ class Home extends Component
                                     latestList.map((item)=>
                                     {
                                         return (
-                                            <li>
-                                                <button onClick={()=>{this.setState({search:item})}}>{item}</button>
-                                            </li>
+                                                <li key={item} onClick={()=>{this.setState({search:item})}}>{item}</li>
                                         )
                                     })
                                 }
@@ -84,9 +82,7 @@ class Home extends Component
                                     latestList.map((item)=>
                                     {
                                         return (
-                                            <li>
-                                                <button onClick={()=>{this.setState({search:item})}}>{item}</button>
-                                            </li>
+                                                <li key={item} onClick={()=>{this.setState({search:item})}}>{item}</li>
                                         )
                                     })
                                 }

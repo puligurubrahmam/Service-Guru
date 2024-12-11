@@ -35,3 +35,9 @@
 .error{
     color: red;
 }
+@media screen and (max-width:768px)
+{
+    .login-container form{
+        width: 80%;
+    }
+}

@@ -66,9 +66,9 @@ class BizRegister extends Component
                         <label>Email</label>
                         <input value={email} placeholder='Enter Email' onChange={(event)=>{this.setState({email:event.target.value})}}/>
                         <label>Password</label>
-                        <input value={password} placeholder='Enter Password' onChange={(event)=>{this.setState({password:event.target.value})}}/>
+                        <input type='password' value={password} placeholder='Enter Password' onChange={(event)=>{this.setState({password:event.target.value})}}/>
                         <label>Confirm Password</label>
-                        <input value={confirm_password} placeholder='Enter Password Again' onChange={(event)=>{this.setState({confirm_password:event.target.value})}}/>
+                        <input type='password' value={confirm_password} placeholder='Enter Password Again' onChange={(event)=>{this.setState({confirm_password:event.target.value})}}/>
                         <label>Full Name</label>
                         <input value={name} placeholder='Enter Your Full Name' onChange={(event)=>{this.setState({name:event.target.value})}}/>
                         <label>Specialization</label>

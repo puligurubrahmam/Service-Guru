@@ -21,7 +21,7 @@ class LoginHome extends Component
             const fetchFunction= async() =>
             {
                 const {location} = this.state;
-                const response = await fetch(`http://localhost:5000/location/${location}`);
+                const response = await fetch(`https://nviri-assignment-backend.onrender.com/${location}`);
                 if(response.ok)
                 {
                     const data = await response.json();

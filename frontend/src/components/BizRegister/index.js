@@ -28,7 +28,7 @@ class BizRegister extends Component
                         location
                     })
                 }
-                const response = await fetch("http://localhost:5000/bizregister",option);
+                const response = await fetch("https://nviri-assignment-backend.onrender.com/bizregister",option);
                 if(response.ok)
                 {
                     this.setState({loading:false})

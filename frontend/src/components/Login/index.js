@@ -22,7 +22,7 @@ class Login extends Component
                     password
                 })
             }
-            const response = await fetch("http://localhost:5000/login",option);
+            const response = await fetch("https://nviri-assignment-backend.onrender.com/login",option);
             if(response.ok)
             {
                 const data = await response.json();
